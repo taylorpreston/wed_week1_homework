@@ -1,0 +1,280 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 10px;
+}
+
+/*Header*/
+
+header.main {
+  background: #118BC0;
+  height: 48px;
+  padding: 10px 0px 10 15px;
+  color: white;
+  overflow: auto;
+}
+
+header.main h1 {
+  margin: 0;
+  height: 48px;
+  width: 210px;
+  display: block;
+  background-image: url(../images/logo.png);
+  background-size: 31px;
+  background-repeat: no-repeat;
+  background-position: 8px 8px;
+  padding: 13px 0 0 50px;
+  text-align: left;
+  float: left;
+}
+
+header.main nav  {
+  float: right;
+  height: 48px;
+  width: 78px;
+  background-color: #0070A4;
+}
+
+nav .login {
+  color: #fff;
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.logo {
+  float:left;
+  margin: 10px 15px 10px 15px;
+}
+/* hero page */
+
+.hero{
+  padding: 165px 30px 75px;
+  background: #344051;
+
+}
+
+.hero h1,h2{
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+}
+
+.hero h1{
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 0 45px 0;
+  font-size: 3.15em;
+}
+
+.hero h2{
+  font-size: 1.7 em;
+  font-weight: lighter;
+  max-width: 280px;
+  margin:0 auto;
+  margin-bottom: 30px;
+}
+.hero .features{
+  padding: 135px 10px 0 10px;
+}
+.hero .features ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hero .features li {
+  background: none;
+  height: 70px;
+  margin: 0 0 30px 0;
+}
+
+/*Spotlight Features List*/
+.featues{
+  width:100%
+}
+
+.features li{
+  text-align: center;
+  padding: 0 0 0 87px;
+}
+
+.spotlightPitch img{
+  float:left;
+}
+
+.spotlightPitch {
+  text-align: left;
+  display: block;
+  float: left;
+  margin: 0 0 0 20px;
+
+}
+
+.spotlightPitch {
+  color: #fff;
+}
+
+.spotlightPitch h4{
+  margin:0;
+  font-size: 16px;
+  height:16px;
+}
+
+/*Mission Page*/
+
+.mission {
+  height: 190px;
+  background: #e8f0f5;
+  text-align: center;
+  padding: 28px;
+}
+
+.mission article {
+  font-size: 28px;
+  color: #000;
+  display: block;
+  margin: 5px;
+}
+/*features*/
+
+.featuresMain{
+  background: #d1d3d7;
+  padding: 30px 10px;
+  text-align: center;
+
+}
+
+.featuresMain article{
+  color: black;
+  height:215px;
+  background: white;
+  margin: 0 0 30px 0;
+  display: inline-block;
+  width: 100%
+}
+
+.featuresMain article:last-child{
+  margin-bottom: 0;
+}
+
+.featuresMain article h5{
+  font-size: 24px;
+  margin: 15px 0 0 0;
+  color: #33556B;
+
+}
+
+.featuresMain article p{
+  font-size: 16px;
+  margin: 30px;
+}
+
+.featuresMain article div{
+  height: 62px;
+  width: 62px;
+  background-color: #C5D0D6;
+  border-radius: 100%;
+  margin: 0 auto;
+  padding: 6px 7px;
+  margin-top: 20px;
+}
+
+.featuresMain img {
+ display: block;
+}
+
+
+
+/*
+Features is above this line
+*/
+.features li {
+  overflow: auto;
+}
+.features li img {
+  float: left;
+}
+
+/* action area */
+
+.action{
+  padding: 30px 0 20px 0;
+  background: #e8f0f5;
+  width: 100%;
+  height: 170px;
+  text-align: center;
+}
+
+.action h2{
+  font-size: 24px;
+  color:#3C4C60;
+  margin: 0 0 40px 0;
+  font-weight: lighter;
+}
+
+/*FOOTER!*/
+
+footer.main {
+  background: #000000;
+  padding: 30px 10px;
+}
+
+/*
+Navigation
+*/
+
+nav.site, nav.legal {
+  text-align: center;
+}
+
+nav.site a, nav.legal a{
+  color: white;
+  text-decoration: none;
+  margin: 0 17px 0 0;
+}
+
+nav.legal {
+  margin: 17px 0 25px 0;
+}
+
+footer.main h4 {
+  width: 132px;
+  height: 25px;
+  background-image: url(../images/automattic.png);
+  background-size: 132px 25px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin top: 10px;
+  text-indent: -99999px;
+
+}
+/* Buttons */
+
+.createSite{
+  height: 52px;
+  width: 208px;
+  background: #1e8cbe;
+  margin: 0 auto;
+  border: none;
+  display: block;
+  box-sizing: content-box;
+}
+
+.highlight{
+  border: 10px solid #202831;
+}
+
+.downArrow{
+  margin: 212px auto 0 auto;
+  display: block;
+  width: 50px;
+  height: 20px;
+  border: none;
+  background: #ffffff
+}

@@ -14,20 +14,22 @@ header.main {
   padding: 10px 0px 10 15px;
   color: white;
   overflow: auto;
+  background-image: url(../images/logo.png);
+  background-size: 31px;
+  background-repeat: no-repeat;
+  background-position: 8px 8px;
 }
 
 header.main h1 {
   margin: 0;
   height: 48px;
-  width: 210px;
+  width: 128px;
   display: block;
-  background-image: url(../images/logo.png);
-  background-size: 31px;
-  background-repeat: no-repeat;
-  background-position: 8px 8px;
   padding: 13px 0 0 50px;
+  font-size: 26px;
   text-align: left;
   float: left;
+  font-weight: lighter;
 }
 
 header.main nav  {
@@ -54,6 +56,7 @@ nav .login {
 .hero{
   padding: 165px 30px 75px;
   background: #344051;
+  background-image: url(../images/crowd.jpg);
 
 }
 
@@ -96,12 +99,15 @@ nav .login {
 
 /*Spotlight Features List*/
 .featues{
-  width:100%
+  width:100%;
 }
 
 .features li{
   text-align: center;
   padding: 0 0 0 87px;
+  width: 100%;
+  margin:0 auto;
+  display: block;
 }
 
 .spotlightPitch img{
@@ -147,7 +153,6 @@ nav .login {
   background: #d1d3d7;
   padding: 30px 10px;
   text-align: center;
-
 }
 
 .featuresMain article{
@@ -217,6 +222,10 @@ Features is above this line
   margin: 0 0 40px 0;
   font-weight: lighter;
 }
+.createSite {
+  font-size: 22px;
+  color: #fff
+}
 
 /*FOOTER!*/
 
@@ -267,8 +276,10 @@ footer.main h4 {
 }
 
 .highlight{
-  border: 10px solid #202831;
+  border: 1px solid #202831;
+  box-shadow: 0px 0px 0px 10px #202831
 }
+
 
 .downArrow{
   margin: 212px auto 0 auto;

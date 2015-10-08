@@ -88,7 +88,8 @@ nav .login {
 .hero .features ul{
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
+  width: 400px;
 }
 
 .hero .features li {
@@ -103,7 +104,6 @@ nav .login {
 }
 
 .features li{
-  text-align: center;
   padding: 0 0 0 87px;
   width: 100%;
   margin:0 auto;
